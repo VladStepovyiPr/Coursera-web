@@ -1,4 +1,72 @@
-.container{
+*{
 	margin: 0px;
-	background-color: #00BBFF;
+	background-color: #999;
+	box-sizing: border-box;
+}
+h1{
+	color: #5511FF;
+	font-weight: 0.5;
+	font-style: italic;
+	text-align: center;
+	margin-top: 0.4em;
+	font-size: 35px;
+}
+p{
+	background-color: #666;
+}
+.container{
+	margin: 0.8em;
+}
+.item{
+	background-color: #666;
+	border: 1px solid black;
+	float: left;
+	text-align: justify;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-style: italic; 
+	margin-right: 1%;
+	margin-top: 1%;
+	font-size: 20px; 
+}
+
+.item-title{
+	position: relative;
+	float: right;
+	height: 15%;
+	width: 45%;
+	border: 1px solid black;
+	font-size: 25px; 
+}
+.regular-text{
+	padding: 3em 0.6em 0.6em 0.6em;
+}
+.container .item:nth-child(1) .item-title{
+	background-color: red;
+}
+.container .item:nth-child(2) .item-title{
+	background-color: blue;
+}
+.container .item:nth-child(3) .item-title{
+	background-color: green;
+}
+
+
+@media (min-width: 992px){
+	.item{
+	width: 32.3%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.item{
+		width: 49%;
+	}
+	.container div:nth-child(3){
+		width: 99%;
+	}	
+
+}
+@media (max-width: 767px){
+	.item{
+		width: 100%
+	}
 }
