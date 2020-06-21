@@ -1,0 +1,43 @@
+body{
+	background-color: #FFE8D5;
+}
+h1{
+	font-size: 3em;
+	margin: 0px;
+}
+.container{
+	margin: 0px;
+}
+.navbar{
+	background-color: #FF9B45;
+}
+.navbar-brand{
+	font-size: 24px;
+}
+.navbar-collapse{
+	padding: 0px;
+}
+.nav{
+	margin: 0px;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #FFE8D5;
+    box-shadow: 1px 1px 3px 1px #ddd;
+}
+.nav li{
+	background-color: #FFE8D5;
+	margin: 0px;
+	border: 1px solid #FFBA7F;
+	box-shadow: 1px 1px 3px 1px #FFB473;
+	box-sizing: border-box;
+	padding-top: 0px;
+}
+
+section{
+	background-color: #FF9B45;
+	border-radius: 10px;
+	margin: 15px 0px;
+	padding: 10px;
+	font-size: 1em;
+	height: 90em;
+}
